@@ -1,0 +1,46 @@
+With the power of user input and exceptions on our belt we can start crafting some fun (and useless) command line applications with python! Let's start by making a simple calculator.
+
+ 
+
+Setup a GitHub repository and local git repository to track work being done
+Create a project with the following file structure:
+app.py
+addition.py
+subtraction.py
+multiplication.py
+division.py
+In app.py:
+import the other 4 modules 
+Present the user with 4 selections:
+Add two numbers
+Subtract two numbers
+Multiply two numbers
+Divide two numbers
+Take user input for their choice
+the type and enter either 1, 2, 3 or 4
+Take user input for number one and number two.
+Apply the action based on the user choice to the given numbers
+Show the user the result
+In addition.py:
+Create a function that takes two arguments, adds them together and returns the result
+In subtraction.py:
+Create a function that takes two arguments, subtracts them and returns the result
+In multiplication.py:
+Create a function that takes two arguments, multiplies them and returns the result
+In division.py:
+Create a function that takes two arguments, divides them and returns the result
+Add, commit and push your code to GitHub
+
+HINT
+
+Remember input() turns everything into a string! You will need to handle turning the strings into numbers!
+
+ 
+
+BONUS
+
+1: Give your users the ability to enter in as many numbers as they want to add, subtract, multiply or divide. It does not need to allow for multiple operations, just an arbitrary amount of user input for numbers.
+
+2: Create a custom exception called CalculatorInputError to be thrown if your user inputs any invalid characters. The calculator should ask for the input again if this error is thrown.
+
+ 
